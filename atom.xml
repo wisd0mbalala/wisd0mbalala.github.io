@@ -2,23 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wisd0mbalala.github.io</id>
     <title>wisd0mbalala</title>
-    <updated>2020-10-13T14:19:57.603Z</updated>
+    <updated>2020-10-20T12:13:56.789Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wisd0mbalala.github.io"/>
     <link rel="self" href="https://wisd0mbalala.github.io/atom.xml"/>
     <logo>https://wisd0mbalala.github.io/images/avatar.png</logo>
     <icon>https://wisd0mbalala.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, wisd0mbalala</rights>
-    <entry>
-        <title type="html"><![CDATA[First pa]]></title>
-        <id>https://wisd0mbalala.github.io/post/first-pa/</id>
-        <link href="https://wisd0mbalala.github.io/post/first-pa/">
-        </link>
-        <updated>2020-10-13T07:55:09.000Z</updated>
-        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://wisd0mbalala.github.io/post-images/1602597340699.jpg" alt="" loading="lazy"></figure>
-]]></summary>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://wisd0mbalala.github.io/post-images/1602597340699.jpg" alt="" loading="lazy"></figure>
-<!-- more -->
-]]></content>
-    </entry>
 </feed>
