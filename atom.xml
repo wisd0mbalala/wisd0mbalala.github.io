@@ -2,11 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wisd0mbalala.github.io</id>
     <title>wisd0mbalala</title>
-    <updated>2020-10-20T12:16:02.453Z</updated>
+    <updated>2020-10-20T12:21:35.163Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wisd0mbalala.github.io"/>
     <link rel="self" href="https://wisd0mbalala.github.io/atom.xml"/>
     <logo>https://wisd0mbalala.github.io/images/avatar.png</logo>
     <icon>https://wisd0mbalala.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, wisd0mbalala</rights>
+    <entry>
+        <title type="html"><![CDATA[Home]]></title>
+        <id>https://wisd0mbalala.github.io/post/home/</id>
+        <link href="https://wisd0mbalala.github.io/post/home/">
+        </link>
+        <updated>2020-10-19T18:06:53.000Z</updated>
+        <content type="html"><![CDATA[<p>I'm a senior lecturer at the University of Kent (Canterbury, UK) and the director of the Linguistics Lab in the Department of English Language and Linguistics.</p>
+]]></content>
+    </entry>
 </feed>

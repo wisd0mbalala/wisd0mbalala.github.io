@@ -1,101 +1,146 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>wisd0mbalala</title>
-<link rel="shortcut icon" href="https://wisd0mbalala.github.io/favicon.ico?v=1603196059875">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    <meta charset="utf-8" >
+
+<title>文章归档 | wisd0mbalala</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wisd0mbalala.github.io/favicon.ico?v=1603196263676">
 <link rel="stylesheet" href="https://wisd0mbalala.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="wisd0mbalala - Atom Feed" href="https://wisd0mbalala.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="">
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://wisd0mbalala.github.io">
-  <img class="avatar" src="https://wisd0mbalala.github.io/images/avatar.png?v=1603196059875" alt="">
-  </a>
-  <h1 class="site-title">
-    wisd0mbalala
-  </h1>
-  <p class="site-description">
-    
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="https://wisd0mbalala.github.io/post/home" class="menu">
-          Home
-        </a>
-      
-    
-      
-        <a href="https://wisd0mbalala.github.io/post/first-pa" class="menu">
-          About
-        </a>
-      
-    
-      
-        <a href="https://wisd0mbalala.github.io/post/research" class="menu">
-          Research
-        </a>
-      
-    
-      
-        <a href="https://wisd0mbalala.github.io/post/contact" class="menu">
-          Contact
-        </a>
-      
-    
-      
-        <a href="https://wisd0mbalala.github.io/post/tutorials" class="menu">
-          Tutorials
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
+    <div id="app" class="main">
 
-    
-        
-
-<div class="archives-container">
-  
-</div>
-
-    
-        <div class="pagination-container">
-  
-  
-</div>
-
-    
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://wisd0mbalala.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://wisd0mbalala.github.io">
+        <img src="https://wisd0mbalala.github.io/images/avatar.png?v=1603196263676" class="site-logo">
+        <h1 class="site-title">wisd0mbalala</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
     </div>
+    <div>
+      
+        
+          <a href="https://wisd0mbalala.github.io/post/home" class="site-nav">
+            Home
+          </a>
+        
+      
+        
+          <a href="https://wisd0mbalala.github.io/post/first-pa" class="site-nav">
+            About
+          </a>
+        
+      
+        
+          <a href="https://wisd0mbalala.github.io/post/research" class="site-nav">
+            Research
+          </a>
+        
+      
+        
+          <a href="https://wisd0mbalala.github.io/post/contact" class="site-nav">
+            Contact
+          </a>
+        
+      
+        
+          <a href="https://wisd0mbalala.github.io/post/tutorials" class="site-nav">
+            Tutorials
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wisd0mbalala.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+
+          <h2 class="archives-title">文章归档</h2>
+          <div class="archives-container">
+            
+              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2020</h2>
+              
+                
+                  <article class="post">
+                    <a href="https://wisd0mbalala.github.io/post/home/">
+                      <h2 class="post-title">
+                        Home
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+            
+          </div>
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
   </body>
 </html>

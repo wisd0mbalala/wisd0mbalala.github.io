@@ -1,100 +1,106 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>Tutorials | wisd0mbalala</title>
-<link rel="shortcut icon" href="https://wisd0mbalala.github.io/favicon.ico?v=1603196059875">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wisd0mbalala.github.io/favicon.ico?v=1603196263676">
 <link rel="stylesheet" href="https://wisd0mbalala.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Tutorials | wisd0mbalala - Atom Feed" href="https://wisd0mbalala.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
     <meta name="description" content="Below you can find a number of different tutorials and online resources I have developed on various topics. Please feel ..." />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://wisd0mbalala.github.io">
-  <img class="avatar" src="https://wisd0mbalala.github.io/images/avatar.png?v=1603196059875" alt="">
-  </a>
-  <h1 class="site-title">
-    wisd0mbalala
-  </h1>
-  <p class="site-description">
-    
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://wisd0mbalala.github.io">
+        <img src="https://wisd0mbalala.github.io/images/avatar.png?v=1603196263676" class="site-logo">
+        <h1 class="site-title">wisd0mbalala</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="https://wisd0mbalala.github.io/post/home" class="menu">
-          Home
-        </a>
+        
+          <a href="https://wisd0mbalala.github.io/post/home" class="site-nav">
+            Home
+          </a>
+        
       
-    
+        
+          <a href="https://wisd0mbalala.github.io/post/first-pa" class="site-nav">
+            About
+          </a>
+        
       
-        <a href="https://wisd0mbalala.github.io/post/first-pa" class="menu">
-          About
-        </a>
+        
+          <a href="https://wisd0mbalala.github.io/post/research" class="site-nav">
+            Research
+          </a>
+        
       
-    
+        
+          <a href="https://wisd0mbalala.github.io/post/contact" class="site-nav">
+            Contact
+          </a>
+        
       
-        <a href="https://wisd0mbalala.github.io/post/research" class="menu">
-          Research
-        </a>
+        
+          <a href="https://wisd0mbalala.github.io/post/tutorials" class="site-nav">
+            Tutorials
+          </a>
+        
       
-    
-      
-        <a href="https://wisd0mbalala.github.io/post/contact" class="menu">
-          Contact
-        </a>
-      
-    
-      
-        <a href="https://wisd0mbalala.github.io/post/tutorials" class="menu">
-          Tutorials
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wisd0mbalala.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              Tutorials
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-10-20
-              </span>
-              <span>
-                2 min read
-              </span>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Tutorials</h2>
+            <div class="post-date">2020-10-20</div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>Below you can find a number of different tutorials and online resources I have developed on various topics. Please feel free to use and share them.</p>
+            <div class="post-content" v-pre>
+              <p>Below you can find a number of different tutorials and online resources I have developed on various topics. Please feel free to use and share them.</p>
 <p>Lancaster Sensorimotor Norms shiny app<br>
 An interactive app written in R (using shiny) to allow users to explore the Lancaster Sensorimotor norms database (Lynott et al. 2019)</p>
 <p>Vowel plot animations<br>
@@ -108,67 +114,36 @@ A detailed outline of how and why data exploration and visualisation steps can h
 <p>Artificial language learning<br>
 Workshop on how to use artificial language learning paradigms to investigate language learning and evolution in a laboratory setting (workshop given at SSoL)</p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
             </div>
-          </article>
+            
+            
+
+            
+
+          </div>
+
         </div>
-
-        
-
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://wisd0mbalala.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
       </div>
     </div>
 
-    <script>
-      hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+AOS.init();
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
+</script>
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
+
+
+
   </body>
 </html>
